@@ -1,0 +1,37 @@
+ul {
+  list-style: none;
+}
+
+/* Style buttons */
+.iconbtn {
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 10px 10px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.iconbtn:hover {
+  background-color: rgb(10, 70, 247);
+}
+
+.redButton {
+  background-color: red;
+}
+
+.greyButton {
+  background-color: gray;
+}
+
+.blink {
+  background-color: red;
+}
+
+.listening {
+  background-color: green;
+}
+
+.not-listening {
+  background-color: red;
+}
